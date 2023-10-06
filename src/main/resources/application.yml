@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: API-GATEWAY-SERVICE
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+server:
+  port: 8085
